@@ -141,7 +141,7 @@ Initial condition:
 ### Diffusion simulation
 
     // Diffusion constant
-    constexpr double diff_D = 1e-4;
+    D = 1e-4;
 
 Initial condition:
 
