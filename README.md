@@ -66,6 +66,35 @@ this results in the following valid values for the parameters in the config file
 
 6. start experiment with protocol when you are read. Don't measure any other configuration before that.
 
+## Example protocol
+The protocol should look somewhat like this. The expert may use the table below or any other form that contains the same data.
+| Step | What was done?               | 1/dt   | 1/h  | epsilon/h | rc/h | wall clock time |
+|------| -----------------------------|--------|------|-----------|------|-----------------|
+|   -4 | Execution of configuration   | 200    |   800|        1.5|     7|        15:30 min|
+|   -3 | Eamination of the previous results   ||      |           |      |         5:00 min|
+|   -2 | Execution of configuration   | 56     |   600|        1.2|     8|        10:30 min|
+|   -1 | Analytical elaborations (convergence plotting) |||       |      |        15:00 min|
+|      |                              |        |      |           |      |                 |
+|    1 |                              |        |      |           |      |                 |
+|    2 |                              |        |      |           |      |                 |
+|    3 |                              |        |      |           |      |                 |
+|    4 |                              |        |      |           |      |                 |
+|    5 |                              |        |      |           |      |                 |
+|    6 |                              |        |      |           |      |                 |
+|    7 |                              |        |      |           |      |                 |
+|    8 |                              |        |      |           |      |                 |
+|    9 |                              |        |      |           |      |                 |
+|   10 |                              |        |      |           |      |                 |
+|   11 |                              |        |      |           |      |                 |
+|   12 |                              |        |      |           |      |                 |
+|   14 |                              |        |      |           |      |                 |
+|   15 |                              |        |      |           |      |                 |
+|   16 |                              |        |      |           |      |                 |
+|   17 |                              |        |      |           |      |                 |
+|   18 |                              |        |      |           |      |                 |
+|   19 |                              |        |      |           |      |                 |
+|   20 |                              |        |      |           |      |                 |
+
 ## Detailed system description
 
 ### Parameter description
