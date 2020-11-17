@@ -22,18 +22,20 @@ The search space is:
 | parameter       | value space                    |
 | --------------- | ------------------------------ |
 | **1/h**         | {50, 100, 150, ..., 800}       |
-| **1/dt**        | {1,2,3,4, ..., 256}            |
 | **epsilon/h**   | {0.6, 0.7, 0.8, 0.9, ..., 2.0} |
 | **r_c/h**       | {5, 6, 7, 8, 9}                |
+| **1/dt**        | {1,2,3,4, ..., 256}            |
 
-this results in the following valid values for the parameters in the config file:
+this results in the following valid values for the configuration promt:
 
 | parameter             | value space                        |
 | --------------------- | ---------------------------------- |
 | **x_particles**       | {50, 100, 150, ..., 800}           |
-| **steps**             | {5000, 10000, 15000, ..., 1280000} |
 | **epsilon_factor**    | {0.6, 0.7, 0.8, 0.9, ..., 2.0}     |
 | **cut_radius_factor** | {5, 6, 7, 8, 9}                    |
+| **one div dt**        | {1,2,3,4, ..., 256}                |
+
+
 
 
 
