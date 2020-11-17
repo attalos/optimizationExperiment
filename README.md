@@ -101,7 +101,19 @@ The accuracy is calculated against a reference configuration. For the calculatio
     K = 0.055;
     F = 0.03;
 
+Initial condition:
+
+![square circle](square_circle.pdf "Initial condition")
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{1}{0.16 \cdot|\pi|} e^{-\frac{distance^2}{0.16}}">
+
 ### Diffusion simulation
 
     // Diffusion constant
     constexpr double diff_D = 1e-4;
+
+Initial condition:
+
+![gaussian](guassian.pdf "Initial condition")
+
+<img src="https://render.githubusercontent.com/render/math?math=q(x, y) = \frac{1}{\frac{x^4+y^4}{0.15^4}%2B1}">
