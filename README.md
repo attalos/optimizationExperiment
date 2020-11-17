@@ -103,7 +103,7 @@ The accuracy is calculated against a reference configuration. For the calculatio
 
 Initial condition:
 
-![square circle](square_circle.pdf "Initial condition")
+[Plot](square_circle.pdf)
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{0.16 \cdot|\pi|} e^{-\frac{distance^2}{0.16}}">
 
@@ -114,6 +114,6 @@ Initial condition:
 
 Initial condition:
 
-![gaussian](guassian.pdf "Initial condition")
+[Plot](guassian.pdf)
 
 <img src="https://render.githubusercontent.com/render/math?math=q(x, y) = \frac{1}{\frac{x^4+y^4}{0.15^4}%2B1}">
