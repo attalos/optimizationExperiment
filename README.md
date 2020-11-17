@@ -1,5 +1,5 @@
 # Test setup - Expert's choice
-The experiment intends to create a baseline for a discretization autotuning system. The goal for the expert is to find good parameter values for h, dt, epsilon and r_c. The experts are provided with the same interface and restrictions that is used by the autotuner. They can evaluate any configuration resulting in an accuracy and runtime value with the given interface. The final value has to be within the provided search space.
+The experiment intends to create a baseline for a discretization autotuning system. The goal for the expert is to find good parameter values for **h**, **dt**, **epsilon** and **r_c**. The experts are provided with the same interface and restrictions that is used by the autotuner. They can evaluate any configuration resulting in an accuracy and runtime value with the given interface. The final value has to be within the provided search space.
 
 
 ## Experiment setup
