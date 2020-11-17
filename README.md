@@ -143,6 +143,6 @@ Initial condition:
 
 Initial condition:
 
-[Plot](guassian.pdf)
+[Plot](gaussian.pdf)
 
 <img src="https://render.githubusercontent.com/render/math?math=q(x, y) = \frac{1}{\frac{x^4+y^4}{0.15^4}%2B1}">
