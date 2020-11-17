@@ -3,7 +3,7 @@ The experiment intends to create a baseline for a discretization autotuning syst
 
 
 ## Experiment setup
-- The experiment is conducted for diffusion and Gray-Scott reaction diffusion separately starting with diffusion.
+- The experiment is conducted for 2D diffusion and Gray-Scott reaction diffusion separately starting with diffusion.
 - The discretization method is fixed. In this case to PSE.
 - The goal is to find a configuration with an error below **10^-6** according to the L_2 norm at t=2 which is as fast as possible
 - The expert may measure as many configurations as he likes
@@ -66,7 +66,7 @@ this results in the following valid values for the configuration promt:
         error L2: 6.698693125230453e-05
         time: 0.377983
 
-6. start experiment with protocol when you are read. Don't measure any other configuration before that.
+6. start experiment with protocol when you are ready. Don't measure any other configuration before that.
 
 ## Example protocol
 The protocol should look somewhat like this. The expert may use the table below or any other form that contains the same data.
